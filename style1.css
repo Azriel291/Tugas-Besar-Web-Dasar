@@ -21,3 +21,60 @@ nav{
     top: 0;
     z-index: 100;
 }
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1;
+    a:visited{
+        color: #e67e22;
+        text-decoration: none;
+        
+    }
+    a:active{
+        color: #f8f9fa;
+    }
+    a:clicked{
+        color: #f8f9fa;
+    }
+    a:hover{
+      color:yellow
+    }
+    
+}
+.logo a{
+    text-decoration: none;
+    color: #e67e22;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    li a {
+      color: white;
+      text-decoration: none;
+      padding: 10px
+   }
+}
+.nav-drop{
+    position: relative;
+    display: inline-block;
+}
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: brown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    a {
+      padding: 12px 15px;
+      display: blocK;
+    }
+    a:hover {
+      background-color: grey;
+   }
+}
+.nav-drop:hover .drop-content {
+    display: block;
+}
