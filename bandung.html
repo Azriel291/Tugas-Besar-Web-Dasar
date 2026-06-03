@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-<nav>
+<nav class="site-nav">
     <div class="logo"><a href="apa.html">Pesona Bandung</a></div>
+    <input type="checkbox" id="burger-toggle" class="burger-toggle">
+    <label for="burger-toggle" class="burger-menu" aria-label="Buka menu navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
     <ul class="nav-link">
         <li><a href="bandung.html">Beranda</a></li>
         <li class="nav-drop">
@@ -23,7 +29,7 @@
     </ul>
 </nav>
 
-<header>
+<header class="hero">
     <div class="content">
         <h1 class="animet">Wilujeng Sumping di Bandung</h1>
         <p>Jelajahi keindahan budaya, sejarah, dan rasa dari Kota Kembang.</p>
@@ -32,8 +38,8 @@
 </header>
 
 <main class="container">
-<section class="intro-panel">
-        <div>
+    <section class="intro-panel">
+        <div class="intro-text">
             <span class="label">Kota Kembang</span>
             <h2>Bandung yang Hangat, Kreatif, dan Penuh Cerita</h2>
             <p>
@@ -41,15 +47,8 @@
                 Bandung selalu punya alasan untuk dikunjungi dan dikenang.
             </p>
         </div>
-        <div class="quick-info">
-            <div>
-                <b>A</b>
-                <span>AAAAAA</span>
-            </div>
-            <div>
-                <b>B</b>
-                <span>BBBBBBB</span>
-            </div>
+        <div class="intro-photo">
+            <img src="GedungSate.png" alt="Gedung Sate sebagai ikon Kota Bandung">
         </div>
     </section>
 
@@ -86,7 +85,7 @@
         </div>
     </section>
 
-    <h2>Daya Tarik Utama</h2>
+    <h2 class="feature-title">Daya Tarik Utama</h2>
     <div class="grid-layout">      
         <div class="card"> 
             <img src="img.jpeg" alt="">
@@ -113,7 +112,23 @@
         </div>
 
     </div>
-    <script src="script.js"></script>
 </main>
+
+<footer class="site-footer">
+    <div class="footer-brand">
+        <h2>Pesona Bandung</h2>
+        <p>Ruang kecil untuk mengenal budaya, rasa, dan cerita Kota Kembang.</p>
+    </div>
+    <div class="footer-links">
+        <a href="bandung.html">Beranda</a>
+        <a href="sejarah.html">Sejarah</a>
+        <a href="kuliner.html">Kuliner</a>
+        <a href="kesenian.html">Kesenian</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Pesona Bandung. Dibuat untuk Tugas Besar Web Dasar.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
