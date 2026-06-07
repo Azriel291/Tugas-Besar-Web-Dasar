@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Pesona Bandung</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<nav class="site-nav">
+    <div class="logo"><a href="apa.html">Pesona Bandung</a></div>
+    <input type="checkbox" id="burger-toggle" class="burger-toggle">
+    <label for="burger-toggle" class="burger-menu" aria-label="Buka menu navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <ul class="nav-link">
+        <li><a href="bandung.html">Beranda</a></li>
+        <li class="nav-drop">
+            <a href="#">Jelajah Budaya &#9662;</a>
+            <div class="drop-content">
+                <a href="sejarah.html">Sejarah</a>
+                <a href="kuliner.html">Kuliner</a>
+                <a href="kesenian.html">Kesenian</a>
+            </div>
+        </li>
+        <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+</nav>
+
+<main class="contact-page">
+    <section class="contact-hero">
+        <span class="label">Hubungi Kami</span>
+        <h1>Kontak Pesona Bandung</h1>
+        <p>Kirim pertanyaan, kritik, atau saran tentang informasi budaya dan wisata Bandung melalui form berikut.</p>
+    </section>
+
+    <section class="contact-layout">
+        <div class="contact-info">
+            <h2>Informasi Kontak</h2>
+            <p>Kami senang menerima masukan agar website Pesona Bandung menjadi lebih lengkap dan bermanfaat.</p>
+            <div class="info-list">
+                <p><b>Email:</b> pesonabandung@gmail.com</p>
+                <p><b>Lokasi:</b> Bandung, Jawa Barat</p>
+                <p><b>Jam aktif:</b> Senin - Jumat, 08.00 - 16.00 WIB</p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+            <h2>Kirim Pesan</h2>
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+                <p class="error-message" id="namaError"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="contoh@gmail.com">
+                <p class="error-message" id="emailError"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="topik">Topik Pesan</label>
+                <select id="topik" name="topik">
+                    <option value="">Pilih topik</option>
+                    <option value="Pertanyaan">Pertanyaan</option>
+                    <option value="Kritik dan Saran">Kritik dan Saran</option>
+                    <option value="Kerja Sama">Kerja Sama</option>
+                </select>
+                <p class="error-message" id="topikError"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="5" maxlength="250" placeholder="Tulis pesan kamu di sini"></textarea>
+                <div class="form-helper">
+                    <p class="error-message" id="pesanError"></p>
+                    <p><span id="charCount">0</span>/250 karakter</p>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+                <button type="button" class="reset-btn" id="resetForm">Reset</button>
+            </div>
+
+            <p class="success-message" id="successMessage"></p>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-brand">
+        <h2>Pesona Bandung</h2>
+        <p>Ruang kecil untuk mengenal budaya, rasa, dan cerita Kota Kembang.</p>
+    </div>
+    <div class="footer-links">
+        <a href="bandung.html">Beranda</a>
+        <a href="sejarah.html">Sejarah</a>
+        <a href="kuliner.html">Kuliner</a>
+        <a href="kesenian.html">Kesenian</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Pesona Bandung. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
