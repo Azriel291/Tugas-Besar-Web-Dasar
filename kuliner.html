@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kuliner Bandung</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
@@ -30,49 +30,92 @@
 </nav>
 
 
-<main class="container">
-    <section class="intro-panel">
-        <div class="intro-text">
-            <span class="label">Rasa Bumi Pasundan</span>
-            <h2>Surga Tradisi Kuliner yang Menggugah Selera</h2>
+<main class="kuliner-page">
+    <section class="kuliner-hero">
+        <div class="kuliner-hero-text">
+            <h1>Kuliner Bandung!</h1>
             <p>
-                Bandung tidak hanya dikenal karena keindahan alamnya, tetapi juga sebagai ibu kota kuliner yang kreatif. 
-                Dari warung legendaris yang bertahan puluhan tahun hingga jajanan kaki lima yang unik, setiap hidangan 
-                menyimpan cerita kehangatan tersendiri.
+                Nikmati berbagai makanan khas Bandung yang terkenal gurih, pedas, hangat, dan penuh cerita.
+                Pilih salah satu makanan untuk melihat deskripsinya.
             </p>
-        </div>
-        <div class="intro-photo">
-            <img src="makanan.png" alt="Kuliner khas Bandung yang menggugah selera">
         </div>
     </section>
 
-    <h2 class="feature-title">Hidangan Wajib Coba</h2>
-    <div class="grid-layout">      
-        <div class="card"> 
-            <img src="https://images.unsplash.com/photo-1655117180292-690a61beea61?auto=format&fit=crop&w=600&q=80" alt="Mie Kocok Bandung">
-            <div class="card-content">
-                <h3>Mie Kocok & Bakso Cuanki</h3>
-                <p>Kombinasi kuah kaldu sapi yang kental, kikil kenyal, dan gurihnya siomay kering khas Bandung yang cocok dinikmati saat cuaca sejuk.</p>
-            </div>
+    <section class="kuliner-cari">
+        <h2>Cari kuliner Bandung</h2>
+        <input type="text" id="cariKuliner" placeholder="Cari makanan Bandung...">
+    </section>
+
+    <section class="kuliner-grid">
+        <div class="kuliner-card" data-nama="Mie Kocok Bandung">
+            <img src="makanan.png" alt="Mie Kocok Bandung">
+            <h3>Mie Kocok Bandung</h3>
+            <button type="button" class="tombol-detail">Detail</button>
         </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80" alt="Jajanan Aci Bandung">
-            <div class="card-content">
-                <h3>Kreasi Olahan Aci</h3>
-                <p>Kreativitas tanpa batas lewat jajanan populer berbasis tepung tapioka seperti Batagor, Siomay, Cireng, hingga Cilok berbumbu kacang pedas.</p>
-            </div>
+        <div class="kuliner-card" data-nama="Batagor">
+            <img src="makanan.png" alt="Batagor">
+            <h3>Batagor</h3>
+            <button type="button" class="tombol-detail">Detail</button>
         </div>
 
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=600&q=80" alt="Surabi Tradisional">
-            <div class="card-content">
-                <h3>Surabi & Minuman Hangat</h3>
-                <p>Nikmati manisnya surabi kinca durian atau gurihnya surabi oncom, ditemani segelas Bandrek atau Bajigur hangat yang kaya akan rempah.</p>
+        <div class="kuliner-card" data-nama="Siomay Bandung">
+            <img src="makanan.png" alt="Siomay Bandung">
+            <h3>Siomay Bandung</h3>
+            <button type="button" class="tombol-detail">Detail</button>
+        </div>
+
+        <div class="kuliner-card" data-nama="Surabi">
+            <img src="makanan.png" alt="Surabi">
+            <h3>Surabi</h3>
+            <button type="button" class="tombol-detail">Detail</button>
+        </div>
+
+        <div class="kuliner-card" data-nama="Seblak">
+            <img src="makanan.png" alt="Seblak">
+            <h3>Seblak</h3>
+            <button type="button" class="tombol-detail">Detail</button>
+        </div>
+
+        <div class="kuliner-card" data-nama="Colenak">
+            <img src="makanan.png" alt="Colenak">
+            <h3>Colenak</h3>
+            <button type="button" class="tombol-detail">Detail</button>
+        </div>
+    </section>
+</main>
+
+<div class="kuliner-popup" id="popupKuliner">
+    <div class="popup-box">
+        <div class="popup-gambar">
+            <img id="popupGambar" src="makanan.png" alt="Kuliner Bandung">
+        </div>
+        <div class="popup-isi">
+            <div class="popup-atas">
+                <h2 id="popupNama">Mie Kocok Bandung</h2>
+                <button type="button" id="tutupPopup">X</button>
+            </div>
+
+            <div class="popup-detail">
+                <h3>Deskripsi</h3>
+                <p id="popupDeskripsi">
+                    Mie Kocok Bandung adalah makanan berkuah gurih dengan mi kuning, tauge, kikil sapi,
+                    seledri, bawang goreng, dan kuah kaldu sapi yang hangat.
+                </p>
+
+                <h3>Rasa</h3>
+                <p id="popupRasa">
+                    Rasanya gurih, hangat, dan segar.
+                </p>
+
+                <h3>Sejarah Singkat</h3>
+                <p id="popupSejarah">
+                    Makanan ini terkenal sebagai salah satu kuliner khas Bandung yang cocok dimakan saat cuaca sejuk.
+                </p>
             </div>
         </div>
     </div>
-</main>
+</div>
 
 
 
@@ -90,5 +133,6 @@
     </div>
     <p class="footer-copy">&copy; 2026 Pesona Bandung. All Rights Reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
