@@ -192,7 +192,8 @@ img{
 
 .container{
     grid-area: main;
-    width: min(1120px, calc(100% - 40px));
+    width: 95%;
+    max-width: 1120px;
     margin: 0 auto;
     padding: 40px 0 70px;
     display: grid;
@@ -448,7 +449,8 @@ img{
 
 .contact-page{
     grid-area: main;
-    width: min(1080px, calc(100% - 40px));
+    width: 95%;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 54px 0 70px;
 }
@@ -727,7 +729,8 @@ img{
     }
 
     .container{
-        width: min(100% - 28px, 1120px);
+        width: 96%;
+        max-width: 1120px;
         padding-bottom: 52px;
         gap: 28px;
     }
@@ -800,7 +803,8 @@ img{
     }
 
     .contact-page{
-        width: min(100% - 28px, 1080px);
+        width: 96%;
+        max-width: 1080px;
         padding: 38px 0 52px;
     }
 
@@ -937,7 +941,8 @@ img{
 
         @media (max-width: 768px){
             .kuliner-page {
-                width: min(100% - 28px, 1120px);
+                width: 96%;
+                max-width: 1120px;
                 padding: 40px 0 60px;
                 gap: 35px;
             }
@@ -1007,7 +1012,8 @@ img{
 }
 
 .kuliner-cari{
-    width: min(100% - 40px, 960px);
+    width: 95%;
+    max-width: 960px;
     margin: 55px auto 45px;
     text-align: center;
 }
@@ -1029,7 +1035,8 @@ img{
 }
 
 .kuliner-grid{
-    width: min(100% - 60px, 1180px);
+    width: 95%;
+    max-width: 1180px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1100,13 +1107,20 @@ img{
 }
 
 .popup-box{
-    width: min(100%, 1250px);
-    min-height: 620px;
+    width: 100%;
+    max-width: 1250px;
+    height: 580px;
     background-color: white;
     border-radius: 18px;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.popup-gambar{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 .popup-gambar img{
@@ -1119,6 +1133,8 @@ img{
 .popup-isi{
     padding: 48px 38px;
     color: black;
+    overflow-y: auto;
+    height: 100%;
 }
 
 .popup-atas{
@@ -1173,6 +1189,138 @@ body.popup-aktif{
     overflow: hidden;
 }
 
+
+
+.team-section{
+    width: 95%;
+    max-width: 1080px;
+    margin: 40px auto 0;
+    padding-bottom: 20px;
+}
+
+.team-header{
+    text-align: center;
+    margin-bottom: 32px;
+
+    h2{
+        font-size: 34px;
+        color: #243447;
+        margin-bottom: 10px;
+    }
+
+    p{
+        color: #607080;
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(28, 48, 65, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeUp 0.8s ease both;
+}
+
+.team-card:nth-child(2){
+    animation-delay: 0.15s;
+}
+
+.team-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(28, 48, 65, 0.18);
+}
+
+.team-photo{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+}
+
+.team-card:hover .team-photo img{
+    transform: scale(1.06);
+}
+
+.team-info{
+    padding: 24px 26px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h3{
+        font-size: 24px;
+        color: #243447;
+        margin: 0;
+    }
+
+    p{
+        color: #607080;
+        line-height: 1.7;
+        font-size: 15px;
+    }
+}
+
+.team-role{
+    display: inline-block;
+    background-color: rgba(47, 158, 216, 0.12);
+    color: #1f8fca;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.team-contact{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 1px solid #e9eef2;
+    padding-top: 14px;
+
+    span{
+        font-size: 14px;
+        color: #607080;
+    }
+}
+
+@media (max-width: 768px){
+    .team-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .team-header h2{
+        font-size: 26px;
+    }
+
+    .team-section{
+        width: 96%;
+        max-width: 1080px;
+    }
+}
+
 @media (max-width: 900px){
     .kuliner-grid{
         grid-template-columns: repeat(2, 1fr);
@@ -1180,13 +1328,18 @@ body.popup-aktif{
 
     .popup-box{
         grid-template-columns: 1fr;
-        min-height: 0;
-        max-height: 92vh;
-        overflow: auto;
+        grid-template-rows: auto 1fr;
+        height: 92vh;
+        overflow: hidden;
+    }
+
+    .popup-gambar{
+        height: 300px;
+        flex-shrink: 0;
     }
 
     .popup-gambar img{
-        height: 310px;
+        height: 300px;
     }
 }
 
@@ -1197,7 +1350,8 @@ body.popup-aktif{
     }
 
     .kuliner-grid{
-        width: min(100% - 28px, 1180px);
+        width: 96%;
+        max-width: 1180px;
         grid-template-columns: 1fr;
     }
 
@@ -1210,7 +1364,7 @@ body.popup-aktif{
     }
 }
 
-/* ===== TIMELINE SEJARAH ===== */
+
 
 .history-timeline{
     padding: 80px 0;

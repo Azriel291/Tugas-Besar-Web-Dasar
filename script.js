@@ -106,37 +106,61 @@ if (popupKuliner) {
             gambar: "Mie-kocok.png",
             deskripsi: "Ingin makanan berkuah? Bandung juga punya Mie Kocok yang tak kalah lezat. Kuliner ini berisi mie yang berbentuk pipih, yang disajikan dengan aneka sayuran, tauge, dan tambahan sedikit kikil sapi. Penamaan kuliner ini disesuaikan dengan cara pembuatannya, karena sebelum disajikan, mie akan dicampur dan bahan lain akan diaduk dan dikocok.",
             rasa: "Rasanya gurih, hangat, dan segar. Biasanya makin nikmat jika diberi sambal dan perasan jeruk limau.",
-            sejarah: "Mie Kocok sudah lama dikenal sebagai makanan khas Bandung. Hidangan ini banyak dijual di warung sederhana sampai tempat makan terkenal."
+            sejarah: "Mie Kocok konon sudah ada sejak tahun 1958. Istilah 'kocok' pada nama makanan ini merujuk pada proses memasaknya, yaitu dengan mengocok-ngocok mi kuning dan tauge di dalam wadah logam berongga sambil dicelupkan ke dalam air panas hingga matang. Hidangan legendaris ini telah lama menjadi primadona kuliner Bandung, terutama saat udara dingin."
         },
         "Batagor": {
             gambar: "batagor.png",
             deskripsi: "Siapa yang tak kenal Batagor? kuliner khas Bandung ini ternyata sudah sampai dimana-mana. Namanya merupakan singkatan dari ‘bakso tahu goreng’, yang merujuk pada bahan serta cara pembuatannya. Sementara itu resepnya terbuat dari adonan ikan dan tepung kanji, yang disajikan dengan saus kacang dan perasan jeruk limau yang segar.",
             rasa: "Rasanya gurih dan renyah, lalu semakin enak karena disiram bumbu kacang, kecap, dan perasan jeruk.",
-            sejarah: "Batagor mulai populer di Bandung sebagai jajanan praktis. Namanya berasal dari bakso tahu goreng."
+            sejarah: "Batagor, singkatan dari Bakso Tahu Goreng, diciptakan pada era 1980-an secara tidak sengaja. Awalnya, pedagang bakso tahu kukus yang tidak habis dagangannya mencoba menggoreng sisa bakso tahu tersebut agar tidak basi, lalu menyajikannya dengan bumbu kacang. Inovasi ini ternyata sangat disukai dan akhirnya melahirkan kuliner ikonik Bandung."
         },
         "Siomay Bandung": {
             gambar: "siomaybdg.jpg",
             deskripsi: "Siomay Bandung (atau lebih sering disebut Baso Tahu oleh warga lokal Bandung) adalah jajanan pasar legendaris khas Jawa Barat yang terbuat dari adonan ikan tenggiri dan tepung tapioka. Makanan kuliner ini dikukus bersama bahan pelengkap seperti tahu putih, kentang, kubis, telur rebus, dan pare, lalu disiram dengan saus kacang kental yang manis-gurih, kecap manis, serta perasan jeruk limau.",
             rasa: "Rasanya lembut dan gurih. Bumbu kacang membuat rasanya menjadi manis, gurih, dan sedikit pedas.",
-            sejarah: "Siomay Bandung berkembang dari makanan kukus yang kemudian disesuaikan dengan selera lokal memakai bumbu kacang."
+            sejarah: "Siomay sebenarnya berakar dari kuliner Tiongkok (Shumai), namun di Bandung hidangan ini mengalami akulturasi budaya. Alih-alih menggunakan daging babi, Siomay Bandung menggunakan daging ikan tenggiri agar halal, dan disajikan dengan saus kacang khas Nusantara yang kaya rasa. Sejak dekade 1970-an, Siomay Bandung mulai populer dijajakan dengan sepeda keliling."
         },
         "Surabi": {
             gambar: "Surabi.png",
             deskripsi: "Kamu pasti sudah tidak asing lagi dengan salah satu jajanan tradisional dari Bandung ini, bukan? Kuliner lezat yang terbuat dari tepung beras dan santan yang dibakar di atas kayu ini memang memiliki rasa yang unik. Kamu akan menemukan tekstur lembut pada bagian atas, dengan luaran yang kriuk dan sedikit rasa gosong.Dimasak dengan tungku dan cetakan khusus dari tanah liat, membuat kue surabi memiliki cita rasa khas yang nikmat. Kamu bisa menikmatinya dengan cairan gula merah atau kinca, oncom yang pedas, atau rasa asin dari campuran telur.",
             rasa: "Rasanya lembut dan harum. Surabi bisa dibuat manis dengan kinca, atau gurih dengan oncom dan topping lain.",
-            sejarah: "Surabi adalah jajanan tradisional Sunda yang dulu banyak dimasak memakai tungku kecil. Sekarang surabi punya banyak topping modern."
+            sejarah: "Surabi merupakan jajanan tradisional peninggalan leluhur Sunda yang telah ada sejak tahun 1920-an. Awalnya, surabi dimasak menggunakan tungku tanah liat dan kayu bakar dengan rasa original yang disajikan bersama kinca (gula merah cair). Seiring perkembangan zaman, surabi di Bandung bertransformasi menjadi kuliner kekinian dengan puluhan varian topping modern seperti keju, sosis, dan mayones."
         },
         "Seblak": {
             gambar: "seblak.jpg",
             deskripsi: "Tak hanya Batagor, makanan khas Bandung lainnya yang sudah sampai di berbagai kota di Indonesia adalah Seblak. Makanan ini terbuat dari kerupuk yang direbus, lalu dicampur dengan racikan bumbu yang terdiri dari bawang putih, kencur, cabai, dan garam. Setelah bumbu halus dimasak hingga harum, barulah bahan-bahan tambahannya dimasukkan. Seperti aneka sayuran, potongan daging ayam, bakso, sosis, hingga ceker ayam. Kuliner lezat ini ternyata juga bisa disajikan dengan kuah atau basah dan kering.",
             rasa: "Rasanya pedas, gurih, dan punya aroma kencur yang khas. Tingkat pedasnya bisa disesuaikan.",
-            sejarah: "Seblak dikenal sebagai makanan khas Bandung yang makin populer karena rasa pedasnya dan isiannya yang bisa divariasikan."
+            sejarah: "Seblak mulai meroket popularitasnya di Bandung pada awal tahun 2000-an, meskipun asal-usulnya sering dikaitkan dengan camilan lawas bernama kerupuk leor. Makanan berbahan dasar kerupuk mentah yang direbus ini dimasak dengan bumbu utama kencur (cikur) yang memberikan aroma dan rasa pedas yang sangat khas. Kini seblak menjadi salah satu ikon street food paling digemari di Indonesia."
         },
         "Colenak": {
             gambar: "Colenak.jpg",
             deskripsi: "jajanan tradisional khas Sunda, Jawa Barat, yang merupakan singkatan dari 'dicocol enak'. Kudapan legendaris ini terbuat dari peuyeum (tapai singkong) yang dibakar di atas arang atau teflon, lalu disajikan bersama saus kinca manis gurih yang terbuat dari campuran gula merah cair dan parutan kelapa.",
             rasa: "Rasanya manis, legit, sedikit asam dari tape, dan harum karena proses pembakaran.",
             sejarah: "Colenak pertama kali diperkenalkan oleh Aki Murdi pada tahun 1930 di kawasan Cicadas, Bandung. Awalnya makanan ini hanya dikenal sebagai peuyeum digulaan (tapai diberi gula). Berkat cita rasanya yang khas, kudapan ini sangat populer bahkan sempat menjadi salah satu hidangan istimewa saat Konferensi Tingkat Tinggi Asia-Afrika (KTT KAA) di Bandung pada tahun 1955"
+        },
+        "Nasi Timbel": {
+            gambar: "nasi-timbel.jpg",
+            deskripsi: "Nasi Timbel adalah hidangan khas Sunda yang nasi putihnya dikukus atau dibungkus dalam daun pisang sehingga menghasilkan aroma yang khas dan harum. Disajikan dengan lauk-pauk lengkap seperti ayam goreng, ikan goreng, tempe, tahu, lalapan segar, dan sambal terasi yang pedas menggugah selera.",
+            rasa: "Rasanya gurih dan harum khas daun pisang, dipadu dengan lauk yang kaya rempah dan sambal yang segar.",
+            sejarah: "Nasi Timbel sudah menjadi sajian sehari-hari masyarakat Sunda sejak zaman dahulu. Kata 'timbel' merujuk pada cara penyajian nasi yang dibungkus daun pisang, tradisi yang diwariskan turun-temurun sebagai bagian dari budaya kuliner Jawa Barat."
+        },
+        "Cireng": {
+            gambar: "cireng.jpg",
+            deskripsi: "Cireng atau aci goreng adalah jajanan khas Sunda yang terbuat dari adonan tepung kanji (aci) yang dicampur bumbu dan digoreng hingga renyah di luar namun kenyal di dalam. Cireng tersedia dalam berbagai varian isian seperti abon, keju, hingga sosis, menjadikannya jajanan yang digemari semua kalangan.",
+            rasa: "Rasanya gurih dan renyah di luar, kenyal di dalam, dengan aroma bawang putih yang khas. Makin nikmat dengan cocolan sambal rujak.",
+            sejarah: "Cireng mulai populer di Bandung pada era 1990-an sebagai jajanan murah meriah. Seiring waktu, cireng berkembang dengan berbagai inovasi isian dan bumbu, dan kini menjadi salah satu ikon jajanan khas Bandung yang terkenal hingga ke seluruh Indonesia."
+        },
+        "Bandros": {
+            gambar: "bandros.jpg",
+            deskripsi: "Bandros adalah kue tradisional Sunda yang terbuat dari campuran tepung beras, santan, dan kelapa parut yang dipanggang dalam cetakan khusus berbentuk setengah lingkaran. Teksturnya sedikit crispy di bagian luar namun lembut dan gurih di bagian dalam, biasanya dinikmati bersama teh manis hangat.",
+            rasa: "Rasanya gurih dan sedikit manis dari santan dan kelapa parut, dengan aroma pandan yang harum dan tekstur unik krispy-lembut.",
+            sejarah: "Bandros sudah ada sejak zaman kolonial dan menjadi bagian dari warisan kuliner Sunda. Nama 'bandros' sendiri konon berasal dari kata dalam bahasa Sunda. Kue ini dulu banyak dijajakan keliling kampung dan kini masih bisa ditemukan di pasar tradisional Bandung."
+        },
+        "Peuyeum": {
+            gambar: "peuyeum.jpg",
+            deskripsi: "Peuyeum (tapai singkong) adalah makanan fermentasi khas Sunda yang terbuat dari singkong yang difermentasi selama beberapa hari menggunakan ragi tradisional. Hasilnya adalah singkong yang empuk, manis-asam, beralkohol ringan, dan sangat aromatis. Peuyeum Bandung dari daerah Cimenyan terkenal sebagai yang terbaik.",
+            rasa: "Rasanya manis-asam segar dengan tekstur lembut dan sedikit berair. Ada rasa unik hasil fermentasi yang membuat ketagihan.",
+            sejarah: "Peuyeum sudah menjadi bagian budaya kuliner Sunda sejak berabad-abad lalu. Peuyeum Bandung, khususnya dari Cimenyan, sudah sangat terkenal dan menjadi oleh-oleh khas Bandung yang banyak dicari wisatawan sejak masa kolonial hingga kini."
         }
     };
 
