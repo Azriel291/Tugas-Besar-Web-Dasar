@@ -126,7 +126,7 @@ img{
 .drop-content {
     display: none;
     position: absolute;
-    background-color: #7b3f2c;
+    background-color: #2f9ed8;
     min-width: 160px;
     box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
     z-index: 1;
@@ -139,7 +139,7 @@ img{
     }
 
     a:hover {
-        background-color: #5f3022;
+        background-color: #1f8fca;
     }
 }
 
