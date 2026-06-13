@@ -103,40 +103,40 @@ var popupKuliner = document.getElementById("popupKuliner");
 if (popupKuliner) {
     var dataKuliner = {
         "Mie Kocok Bandung": {
-            gambar: "makanan.png",
-            deskripsi: "Mie Kocok Bandung adalah makanan berkuah gurih dengan mi kuning, tauge, kikil sapi, seledri, bawang goreng, dan kuah kaldu sapi yang hangat.",
+            gambar: "Mie-kocok.png",
+            deskripsi: "Ingin makanan berkuah? Bandung juga punya Mie Kocok yang tak kalah lezat. Kuliner ini berisi mie yang berbentuk pipih, yang disajikan dengan aneka sayuran, tauge, dan tambahan sedikit kikil sapi. Penamaan kuliner ini disesuaikan dengan cara pembuatannya, karena sebelum disajikan, mie akan dicampur dan bahan lain akan diaduk dan dikocok.",
             rasa: "Rasanya gurih, hangat, dan segar. Biasanya makin nikmat jika diberi sambal dan perasan jeruk limau.",
             sejarah: "Mie Kocok sudah lama dikenal sebagai makanan khas Bandung. Hidangan ini banyak dijual di warung sederhana sampai tempat makan terkenal."
         },
         "Batagor": {
-            gambar: "makanan.png",
-            deskripsi: "Batagor adalah singkatan dari bakso tahu goreng. Makanan ini dibuat dari adonan ikan dan tepung, lalu digoreng sampai bagian luarnya renyah.",
+            gambar: "batagor.png",
+            deskripsi: "Siapa yang tak kenal Batagor? kuliner khas Bandung ini ternyata sudah sampai dimana-mana. Namanya merupakan singkatan dari ‘bakso tahu goreng’, yang merujuk pada bahan serta cara pembuatannya. Sementara itu resepnya terbuat dari adonan ikan dan tepung kanji, yang disajikan dengan saus kacang dan perasan jeruk limau yang segar.",
             rasa: "Rasanya gurih dan renyah, lalu semakin enak karena disiram bumbu kacang, kecap, dan perasan jeruk.",
             sejarah: "Batagor mulai populer di Bandung sebagai jajanan praktis. Namanya berasal dari bakso tahu goreng."
         },
         "Siomay Bandung": {
-            gambar: "makanan.png",
-            deskripsi: "Siomay Bandung biasanya berisi siomay ikan, tahu, kentang, kol, pare, dan telur yang dikukus.",
+            gambar: "siomaybdg.jpg",
+            deskripsi: "Siomay Bandung (atau lebih sering disebut Baso Tahu oleh warga lokal Bandung) adalah jajanan pasar legendaris khas Jawa Barat yang terbuat dari adonan ikan tenggiri dan tepung tapioka. Makanan kuliner ini dikukus bersama bahan pelengkap seperti tahu putih, kentang, kubis, telur rebus, dan pare, lalu disiram dengan saus kacang kental yang manis-gurih, kecap manis, serta perasan jeruk limau.",
             rasa: "Rasanya lembut dan gurih. Bumbu kacang membuat rasanya menjadi manis, gurih, dan sedikit pedas.",
             sejarah: "Siomay Bandung berkembang dari makanan kukus yang kemudian disesuaikan dengan selera lokal memakai bumbu kacang."
         },
         "Surabi": {
-            gambar: "makanan.png",
-            deskripsi: "Surabi adalah kue tradisional berbahan tepung beras dan santan. Biasanya dimasak memakai cetakan kecil.",
+            gambar: "Surabi.png",
+            deskripsi: "Kamu pasti sudah tidak asing lagi dengan salah satu jajanan tradisional dari Bandung ini, bukan? Kuliner lezat yang terbuat dari tepung beras dan santan yang dibakar di atas kayu ini memang memiliki rasa yang unik. Kamu akan menemukan tekstur lembut pada bagian atas, dengan luaran yang kriuk dan sedikit rasa gosong.Dimasak dengan tungku dan cetakan khusus dari tanah liat, membuat kue surabi memiliki cita rasa khas yang nikmat. Kamu bisa menikmatinya dengan cairan gula merah atau kinca, oncom yang pedas, atau rasa asin dari campuran telur.",
             rasa: "Rasanya lembut dan harum. Surabi bisa dibuat manis dengan kinca, atau gurih dengan oncom dan topping lain.",
             sejarah: "Surabi adalah jajanan tradisional Sunda yang dulu banyak dimasak memakai tungku kecil. Sekarang surabi punya banyak topping modern."
         },
         "Seblak": {
-            gambar: "makanan.png",
-            deskripsi: "Seblak adalah makanan pedas yang dibuat dari kerupuk basah, bumbu kencur, cabai, telur, dan berbagai tambahan seperti bakso atau sosis.",
+            gambar: "seblak.jpg",
+            deskripsi: "Tak hanya Batagor, makanan khas Bandung lainnya yang sudah sampai di berbagai kota di Indonesia adalah Seblak. Makanan ini terbuat dari kerupuk yang direbus, lalu dicampur dengan racikan bumbu yang terdiri dari bawang putih, kencur, cabai, dan garam. Setelah bumbu halus dimasak hingga harum, barulah bahan-bahan tambahannya dimasukkan. Seperti aneka sayuran, potongan daging ayam, bakso, sosis, hingga ceker ayam. Kuliner lezat ini ternyata juga bisa disajikan dengan kuah atau basah dan kering.",
             rasa: "Rasanya pedas, gurih, dan punya aroma kencur yang khas. Tingkat pedasnya bisa disesuaikan.",
             sejarah: "Seblak dikenal sebagai makanan khas Bandung yang makin populer karena rasa pedasnya dan isiannya yang bisa divariasikan."
         },
         "Colenak": {
-            gambar: "makanan.png",
-            deskripsi: "Colenak adalah tape singkong bakar yang disajikan dengan saus gula merah dan kelapa parut.",
+            gambar: "Colenak.jpg",
+            deskripsi: "jajanan tradisional khas Sunda, Jawa Barat, yang merupakan singkatan dari 'dicocol enak'. Kudapan legendaris ini terbuat dari peuyeum (tapai singkong) yang dibakar di atas arang atau teflon, lalu disajikan bersama saus kinca manis gurih yang terbuat dari campuran gula merah cair dan parutan kelapa.",
             rasa: "Rasanya manis, legit, sedikit asam dari tape, dan harum karena proses pembakaran.",
-            sejarah: "Colenak adalah makanan khas Bandung yang namanya berasal dari kata dicocol enak, karena tape bakarnya dicocol ke saus gula."
+            sejarah: "Colenak pertama kali diperkenalkan oleh Aki Murdi pada tahun 1930 di kawasan Cicadas, Bandung. Awalnya makanan ini hanya dikenal sebagai peuyeum digulaan (tapai diberi gula). Berkat cita rasanya yang khas, kudapan ini sangat populer bahkan sempat menjadi salah satu hidangan istimewa saat Konferensi Tingkat Tinggi Asia-Afrika (KTT KAA) di Bandung pada tahun 1955"
         }
     };
 
@@ -173,7 +173,7 @@ if (popupKuliner) {
     }
 
     for (var i = 0; i < tombolDetail.length; i++) {
-        tombolDetail[i].addEventListener("click", function() {
+        tombolDetail[i].addEventListener("click", function () {
             var kartu = this.parentElement;
             var namaMakanan = kartu.getAttribute("data-nama");
             bukaPopup(namaMakanan);
@@ -182,13 +182,13 @@ if (popupKuliner) {
 
     tutupPopup.addEventListener("click", sembunyikanPopup);
 
-    popupKuliner.addEventListener("click", function(event) {
+    popupKuliner.addEventListener("click", function (event) {
         if (event.target === popupKuliner) {
             sembunyikanPopup();
         }
     });
 
-    cariKuliner.addEventListener("input", function() {
+    cariKuliner.addEventListener("input", function () {
         var kataKunci = cariKuliner.value.toLowerCase();
 
         for (var i = 0; i < kartuKuliner.length; i++) {
