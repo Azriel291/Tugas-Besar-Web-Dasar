@@ -1578,3 +1578,28 @@ body.popup-aktif{
         font-size: 28px;
     }
 }
+
+/* Scroll Animation Classes */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-on-scroll.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-left {
+    transform: translateX(-30px);
+}
+
+.slide-right {
+    transform: translateX(30px);
+}
+
+.animate-on-scroll.slide-left.in-view,
+.animate-on-scroll.slide-right.in-view {
+    transform: translateX(0);
+}
