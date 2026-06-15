@@ -98,10 +98,10 @@ if (contactForm) {
     updateCharacterCount();
 }
 
-var popupKuliner = document.getElementById("popupKuliner");
+const popupKuliner = document.getElementById("popupKuliner");
 
 if (popupKuliner) {
-    var dataKuliner = {
+    const dataKuliner = {
         "Mie Kocok Bandung": {
             gambar: "Mie-kocok.png",
             deskripsi: "Ingin makanan berkuah? Bandung juga punya Mie Kocok yang tak kalah lezat. Kuliner ini berisi mie yang berbentuk pipih, yang disajikan dengan aneka sayuran, tauge, dan tambahan sedikit kikil sapi. Penamaan kuliner ini disesuaikan dengan cara pembuatannya, karena sebelum disajikan, mie akan dicampur dan bahan lain akan diaduk dan dikocok.",
@@ -164,16 +164,16 @@ if (popupKuliner) {
         }
     };
 
-    var kartuKuliner = document.querySelectorAll(".kuliner-card");
-    var tombolDetail = document.querySelectorAll(".tombol-detail");
-    var popupNama = document.getElementById("popupNama");
-    var popupGambar = document.getElementById("popupGambar");
-    var tutupPopup = document.getElementById("tutupPopup");
-    var popupDeskripsi = document.getElementById("popupDeskripsi");
-    var popupRasa = document.getElementById("popupRasa");
-    var popupSejarah = document.getElementById("popupSejarah");
-    var cariKuliner = document.getElementById("cariKuliner");
-    var namaAktif = "";
+    const kartuKuliner = document.querySelectorAll(".kuliner-card");
+    const tombolDetail = document.querySelectorAll(".tombol-detail");
+    const popupNama = document.getElementById("popupNama");
+    const popupGambar = document.getElementById("popupGambar");
+    const tutupPopup = document.getElementById("tutupPopup");
+    const popupDeskripsi = document.getElementById("popupDeskripsi");
+    const popupRasa = document.getElementById("popupRasa");
+    const popupSejarah = document.getElementById("popupSejarah");
+    const cariKuliner = document.getElementById("cariKuliner");
+    let namaAktif = "";
 
     function tampilkanInfo() {
         popupDeskripsi.textContent = dataKuliner[namaAktif].deskripsi;
