@@ -225,7 +225,7 @@ img{
     margin-top: -110px;
     position: relative;
     z-index: 2;
-    animation: fadeUp 0.9s 0.1s ease both;
+    transition-delay: 0.1s;
 }
 
 .intro-text{
@@ -270,7 +270,7 @@ img{
 
 .slider-section{
     grid-area: slider;
-    animation: fadeUp 0.9s 0.2s ease both;
+    transition-delay: 0.2s;
 }
 
 .section-heading{
@@ -347,7 +347,6 @@ img{
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    animation: fadeUp 0.9s ease both;
 
     img{
         width: 100%;
@@ -358,18 +357,22 @@ img{
     }
 }
 
+.card.animate-on-scroll.in-view {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.8s ease-out;
+}
+
 .card:nth-child(1){
     grid-area: card-one;
 }
 
 .card:nth-child(2){
     grid-area: card-two;
-    animation-delay: 0.12s;
+    transition-delay: 0.12s;
 }
 
 .card:nth-child(3){
     grid-area: card-three;
-    animation-delay: 0.24s;
+    transition-delay: 0.24s;
 }
 
 .card:hover{
@@ -489,7 +492,6 @@ img{
     border-radius: 8px;
     box-shadow: 0 18px 45px rgba(28, 48, 65, 0.12);
     padding: 28px;
-    animation: fadeUp 0.8s ease both;
 }
 
 .contact-info h2,
@@ -853,7 +855,6 @@ img{
             border-left: 6px solid #e67e22;
             border-radius: 8px;
             box-shadow: 0 18px 45px rgba(28, 48, 65, 0.14);
-            animation: fadeUp 0.8s ease both;
             h2{
                 font-size: 36px;
                 color: #243447;
@@ -882,7 +883,6 @@ img{
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(28, 48, 65, 0.06);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            animation: fadeUp 0.9s ease both;
         }
 
         .kuliner-item:hover{
@@ -1050,6 +1050,10 @@ img{
     overflow: hidden;
     box-shadow: 0 12px 28px rgba(28, 48, 65, 0.16);
     padding-bottom: 16px;
+}
+
+.kuliner-card.animate-on-scroll.in-view {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.8s ease-out;
 }
 
 .kuliner-card h3{
@@ -1230,11 +1234,14 @@ body.popup-aktif{
     overflow: hidden;
     box-shadow: 0 12px 32px rgba(28, 48, 65, 0.12);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: fadeUp 0.8s ease both;
+}
+
+.team-card.animate-on-scroll.in-view {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.8s ease-out;
 }
 
 .team-card:nth-child(2){
-    animation-delay: 0.15s;
+    transition-delay: 0.15s;
 }
 
 .team-card:hover{
@@ -1522,7 +1529,6 @@ body.popup-aktif{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    animation: fadeUp 0.9s ease both;
 
     img{
     width: 100%;
@@ -1540,7 +1546,6 @@ body.popup-aktif{
 .art-text{
     flex: 1;
     padding: 20px;
-    animation: fadeUp 0.9s 0.2s ease both;
 
     h2{
         font-size: 36px;
