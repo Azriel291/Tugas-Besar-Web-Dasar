@@ -1475,7 +1475,7 @@ body.popup-aktif{
 
 .timeline-img{
     width: 100%;
-    height: 220px;
+    height: 100%;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 15px;
@@ -1543,8 +1543,8 @@ body.popup-aktif{
 
     img{
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
     display: block;
     transition: transform 0.5s ease;
     }
