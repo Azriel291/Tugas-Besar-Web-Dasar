@@ -247,3 +247,48 @@ document.addEventListener("DOMContentLoaded", function() {
     const animatedElements = document.querySelectorAll('.animate-on-scroll');
     animatedElements.forEach(el => observer.observe(el));
 });
+
+const tombolSapa = document.getElementById("tombolSapaWarga");
+const containerSapaan = document.getElementById("container-sapaan");
+
+if (tombolSapa && containerSapaan) {
+    
+
+    const daftarSapaanBersih = [
+        "Sampurasun! Wilujeng sumping di Bandung. Semoga harimu menyenangkan di Kota Kembang.",
+        "Kumaha damang? Semoga kamu sehat dan betah menikmati suasana Bandung.",
+        "Wilujeng enjing! Pagi di Bandung paling cocok ditemani udara sejuk dan makanan hangat.",
+        "Halo Wargi Bandung! Tetap tersenyum dan jaga kebersihan selama menjelajah kota ini.",
+        "Punten, mampir heula! Jangan lupa mencoba batagor, seblak, surabi, dan kuliner khas Bandung.",
+        "Sampurasun! Wilujeng sumping di Bandung! ❤️ (Selamat datang di Bandung!)",
+        "Kumaha damang? Semoga harimu di Kota Kembang menyenangkan! ✨",
+        "Punten... Tong hilap nyobian seblak sareng batagor dinten ieu! 🍲",
+        "Wilujeng enjing! Bandung selalu rindu dengan kehadiranmu. 🏔️",
+        "Halo Wargi! Tetap tersenyum dan jaga kebersihan selama di Bandung ya! 🌸"
+    ];
+
+    tombolSapa.addEventListener("click", function() {
+        var nomorAcak = Math.floor(Math.random() * daftarSapaanBersih.length);
+        var sapaanAcak = daftarSapaanBersih[nomorAcak];
+        var kartuSapaan = document.createElement("div");
+
+        kartuSapaan.classList.add("kartu-sapaan-aktif");
+        kartuSapaan.innerHTML = `
+            <span class="ikon-sapaan">BDG</span>
+            <div class="isi-sapaan">
+                <h3>Sapaan Bandung</h3>
+                <p>${sapaanAcak}</p>
+            </div>
+        `;
+
+        containerSapaan.appendChild(kartuSapaan);
+
+        setTimeout(function() {
+            kartuSapaan.classList.add("sapaan-hilang");
+        }, 3500);
+
+        setTimeout(function() {
+            kartuSapaan.remove();
+        }, 4300);
+    });
+}
