@@ -174,7 +174,7 @@ img{
 }
 
 .sapa{
-    background-color: #e67e22;
+    background-color: #00a6ff;
     color: white;
     padding: 10px 25px;
     border: none;
@@ -207,7 +207,7 @@ img{
     gap: 14px;
     align-items: flex-start;
     background-color: rgba(255, 255, 255, 0.94);
-    border-left: 5px solid #e67e22;
+    border-left: 5px solid #00a6ff;
     border-radius: 8px;
     box-shadow: 0 16px 35px rgba(28, 48, 65, 0.22);
     padding: 16px;
@@ -316,7 +316,7 @@ img{
 .label{
     display: inline-block;
     margin-bottom: 10px;
-    color: #d35400;
+    color: #00a6ff;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -469,7 +469,7 @@ img{
     grid-area: footer-brand;
 
     h2{
-        color: #e67e22;
+        color: white;
         margin-bottom: 8px;
     }
 
@@ -1186,10 +1186,19 @@ img{
     padding: 35px;
 }
 
-.kuliner-popup.muncul{
+.kuliner-popup.muncul,
+.kuliner-popup.tutup{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.kuliner-popup.muncul{
+    animation: popupLatarMasuk 0.25s ease both;
+}
+
+.kuliner-popup.tutup{
+    animation: popupLatarKeluar 0.32s ease both;
 }
 
 .popup-box{
@@ -1201,6 +1210,14 @@ img{
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.kuliner-popup.muncul .popup-box{
+    animation: popupBoxMasuk 0.35s ease both;
+}
+
+.kuliner-popup.tutup .popup-box{
+    animation: popupBoxKeluar 0.32s ease both;
 }
 
 .popup-gambar{
@@ -1273,6 +1290,46 @@ img{
 
 body.popup-aktif{
     overflow: hidden;
+}
+
+@keyframes popupLatarMasuk{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes popupLatarKeluar{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes popupBoxMasuk{
+    from{
+        opacity: 0;
+        transform: translateY(28px) scale(0.96);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes popupBoxKeluar{
+    from{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(22px) scale(0.96);
+    }
 }
 
 
@@ -1582,7 +1639,7 @@ body.popup-aktif{
 
     h1{
         font-size: 48px;
-        color: #e67e22;
+        color: #00a6ff;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         margin-bottom: 15px;
         animation: fadeUp 0.8s ease both;

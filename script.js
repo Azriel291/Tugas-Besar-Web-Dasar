@@ -174,6 +174,7 @@ if (popupKuliner) {
     const popupSejarah = document.getElementById("popupSejarah");
     const cariKuliner = document.getElementById("cariKuliner");
     let namaAktif = "";
+    var timerTutupPopup;
 
     function tampilkanInfo() {
         popupDeskripsi.textContent = dataKuliner[namaAktif].deskripsi;
@@ -182,18 +183,29 @@ if (popupKuliner) {
     }
 
     function bukaPopup(namaMakanan) {
+        clearTimeout(timerTutupPopup);
         namaAktif = namaMakanan;
         popupNama.textContent = namaMakanan;
         popupGambar.src = dataKuliner[namaMakanan].gambar;
         popupGambar.alt = namaMakanan;
         tampilkanInfo();
+        popupKuliner.classList.remove("tutup");
         popupKuliner.classList.add("muncul");
         document.body.classList.add("popup-aktif");
     }
 
     function sembunyikanPopup() {
+        if (!popupKuliner.classList.contains("muncul")) {
+            return;
+        }
+
         popupKuliner.classList.remove("muncul");
-        document.body.classList.remove("popup-aktif");
+        popupKuliner.classList.add("tutup");
+
+        timerTutupPopup = setTimeout(function () {
+            popupKuliner.classList.remove("tutup");
+            document.body.classList.remove("popup-aktif");
+        }, 320);
     }
 
     for (var i = 0; i < tombolDetail.length; i++) {
