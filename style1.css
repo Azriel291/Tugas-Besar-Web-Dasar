@@ -519,7 +519,7 @@ img{
     text-align: left;
     margin-bottom: 34px;
     background-color: rgba(255, 255, 255);
-    border-left: 6px solid #e67e22;
+    border-left: 6px solid #00a6ff;
     border-radius: 8px;
     box-shadow: 0 18px 45px rgba(28, 48, 65, 0.14);
     padding: 30px;
@@ -568,7 +568,7 @@ img{
     gap: 14px;
     p{
         padding: 14px;
-    border-left: 4px solid #e67e22;
+    border-left: 4px solid #00a6ff;
     background-color: #f8fafb;
     border-radius: 6px;
     margin-bottom: 0;
@@ -652,12 +652,12 @@ img{
 }
 
 .submit-btn{
-    background-color: #e67e22;
+    background-color: #00a6ff;
     color: white;
 }
 
 .submit-btn:hover{
-    background-color: #d35400;
+    background-color: #0035d3;
     transform: translateY(-2px);
 }
 
@@ -1187,6 +1187,10 @@ img{
     background-color: rgba(0,0,0,0.65);
     z-index: 200;
     padding: 35px;
+    img{
+        width: 500px;
+        height: 620px;
+    }
 }
 
 .kuliner-popup.muncul,
