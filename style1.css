@@ -776,6 +776,7 @@ img{
 
     .nav-drop{
         display: block;
+        
     }
 
     .drop-content{
@@ -783,8 +784,8 @@ img{
         position: static;
         min-width: 0;
         box-shadow: none;
-        background-color: rgba(255,255,255,0.08);
-        margin: 0 0 8px 14px;
+        margin-left: 20px;
+        
 
         a{
             padding: 10px 14px;
